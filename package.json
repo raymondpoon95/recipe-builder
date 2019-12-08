@@ -1,0 +1,24 @@
+{
+  "name": "recipe-builder",
+  "version": "1.0.0",
+  "description": "recipe project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondpoon95/recipe-builder.git"
+  },
+  "author": "raymond poon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymondpoon95/recipe-builder/issues"
+  },
+  "homepage": "https://github.com/raymondpoon95/recipe-builder#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
