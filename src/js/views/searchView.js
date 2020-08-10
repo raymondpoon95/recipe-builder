@@ -28,6 +28,6 @@ const renderRecipe = (recipe) => {
 }
 
 export const renderResults = (recipes) => {
-    // loops throught renderResults and calls renderRecipe on each element of renderResults
+    // loops through renderResults and calls renderRecipe on each element of renderResults
     recipes.forEach(renderRecipe);
 }
